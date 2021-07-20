@@ -3,8 +3,6 @@ import React, { useReducer } from "react";
 // import { Activity } from "../../components/Activity";
 import { useHistory } from "react-router-dom";
 
-import "./JobsPage.scss";
-
 export const JobsPage = () => {
   const history = useHistory()
   function handleClick() {

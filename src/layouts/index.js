@@ -11,7 +11,7 @@ const Layouts = {
 
 const Layout = ({ children, location: { pathname } }) => {
   const getLayout = () => {
-    if (/^\/auth(?=\/|$)/i.test(pathname)) {
+    if (/^\/login(?=\/|$)/i.test(pathname)) {
       return "auth";
     }
     return "main";

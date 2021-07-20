@@ -1,9 +1,5 @@
 import React, { useReducer } from "react";
-// import { LeftSidebar } from "../../components/LeftSidebar";
-// import { Activity } from "../../components/Activity";
 import { useHistory } from "react-router-dom";
-
-import "./HomePage.scss";
 
 export const HomePage = () => {
   const history = useHistory()
